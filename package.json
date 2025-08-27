@@ -1,0 +1,25 @@
+{
+  "name": "quokka",
+  "displayName": "Quokka",
+  "description": "Syntax highlighting for Quokaa",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "quokka",
+      "aliases": ["Quokka", "quokka"],
+      "extensions": [".qk",".quokka"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "quokka",
+      "scopeName": "source.qk",
+      "path": "./syntaxes/quokka.tmLanguage.json"
+    }]
+  }
+}
