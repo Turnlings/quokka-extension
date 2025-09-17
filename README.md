@@ -4,6 +4,7 @@ A syntax highlighting VSCode extension for the Quokka toy programming language.
 
 [Quokka Interpreter Github](https://github.com/Turnlings/quokka-interpreter)
 
+![Example syntax highlighting](images/example.png)
 
 ## Installation
 
