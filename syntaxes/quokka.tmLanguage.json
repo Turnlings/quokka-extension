@@ -17,7 +17,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.quokka",
-					"match": "\\b(if|else|while|for|do|def|class|set|return)\\b"
+					"match": "\\b(import|if|else|while|for|do|def|class|set|return)\\b"
 				}
 			]
 		},
